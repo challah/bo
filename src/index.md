@@ -63,7 +63,7 @@ Thanks for stopping by! Hope to see you around the city soon.
 {% for kid in kids %}
 <div class="kiddo">
 <h3>{{ kid.name }}</h3>
-<img src="{{'/images/kid_placeholder.png' | url}}" alt="{{kid.name}}" class="kid-img">
+<img src="images/kid_placeholder.png" alt="{{kid.name}}" class="kid-img">
 <ul>
 <li>Birth order: {{ kid["birth order"] }}</li>
 <li>Personality: {{ kid.personality }}</li>
