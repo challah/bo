@@ -4,12 +4,6 @@ date: 2023-03-14
 layout: index.njk
 ---
 
-<ul>
-  {% for page in collections.blog %}
-    <li><a href="{{ page.url | url}}">{{ page.data.title }}</a></li>
-  {% endfor %}
-</ul>
-
 ## About Me
 
 Hi there! My name is Beauregard, but my friends call me Bo. I'm a mother opossum living in Toronto, and I love exploring the city with my family. Opossums may be rare in Toronto, but we're a hardy bunch!
@@ -31,6 +25,22 @@ I have a few kids who keep me on my toes:
 - Bolé
 
 I love my little ones to bits, even when they keep me up all night with their antics. We like to spend our time exploring the city and trying out new foods. I'm so proud of each and every one of them!
+
+## Blog
+
+<!-- show the latest 5 posts -->
+
+{% for post in collections.blog | reverse | limit(3) %}
+- [{{ post.data.title }}]({{ post.url | url}})
+  {% endfor %}
+
+## Huh?
+
+<ul>
+  {% for page in collections.blog %}
+    <li><a href="{{ page.url | url}}">{{ page.data.title }}</a></li>
+  {% endfor %}
+</ul>
 
 ## Links
 
@@ -70,5 +80,6 @@ I'm so proud of my little ones and can't wait to see what they accomplish in lif
 <!-- LOOP throught the pages as links -->
 
 {% for page in collections.pages %}
+
 - [{{ page.data.title | url}}]({{ page.url}})
-{%- endfor %}
+  {%- endfor %}

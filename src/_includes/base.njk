@@ -5,20 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="{{ '/css/style.css' | url }}">
-    <title>{{ title }}</title>
+    <title>{{ site.name }}</title>
   </head>
   <body>
-    {# just put the h1 in the markdown? #}
-    <h1>{{ title }}</h1>
-    {# navigation bar, cycle through all the pages #}
-    <nav>
-      <ul>
-        {% for page in site.pages %}
-          <li><a href="{{ page.url }}">{{ page.title }}</a></li>
-        {% endfor %}
-      </ul>
-    <article>
-    {{ content | safe }}
-    </article>
-  </body>
-</html>
+    <header>
+      <h1>{{ site.name }}</h1>
+      <nav>
+        <ul>
+          <li>
+            <a href="{{ '/' | url }}">Home</a>
+          </li>
+          <li>
+            <a href="{{ '/blog' | url }}">Blog</a>
+          </li>
+          {# add pages loop to nav with url #}
+          {% for page in collections.pages %}
+            <li>
+              <a href="{{ page.url | url }}">{{ page.data.title }}</a>
+            </li>
+          {% endfor %}
+        </nav>
+      </header>
+      <article>
+        <h2>{{ title }}</h2>
+        {{ content | safe }}
+      </article>
+    </body>
+  </html>
