@@ -29,18 +29,11 @@ I love my little ones to bits, even when they keep me up all night with their an
 ## Blog
 
 <!-- show the latest 5 posts -->
+Welcome, fellow food adventurers, to my little corner of the world where I, Bo the opossum, share my passion for dumpster dining! As a proud, resourceful opossum living in the bustling city of Toronto, I've discovered that discarded food can be an eco-friendly, delightful, and diverse source of nourishment. Join me on my urban foraging adventures as I explore the hidden gems in trash bins, uncovering an endless buffet of flavors and textures. Here, I'll be sharing my culinary discoveries and tips on how to thrive in this human world. So, get ready for a wild ride through the world of refined scavenging and prepare to view trash in a whole new light!
 
 {% for post in collections.blog | reverse | limit(3) %}
 - [{{ post.data.title }}]({{ post.url | url}})
-  {% endfor %}
-
-## Huh?
-
-<ul>
-  {% for page in collections.blog %}
-    <li><a href="{{ page.url | url}}">{{ page.data.title }}</a></li>
-  {% endfor %}
-</ul>
+{% endfor %}
 
 ## Links
 
@@ -48,8 +41,7 @@ Check out some of my favorite sites:
 
 - [The Toronto Wildlife Centre](https://www.torontowildlifecentre.com/)
 - [Opossum Society of Canada](https://www.opossumsocietyofcanada.ca/)
-
-Thanks for stopping by! Hope to see you around the city soon.
+- [Eleventy!!11](https://www.11ty.dev/)
 
 ## Meet the Kids
 
@@ -77,9 +69,4 @@ Thanks for stopping by! Hope to see you around the city soon.
 
 I'm so proud of my little ones and can't wait to see what they accomplish in life.
 
-<!-- LOOP throught the pages as links -->
-
-{% for page in collections.pages %}
-
-- [{{ page.data.title | url}}]({{ page.url}})
-  {%- endfor %}
+Thanks for stopping by! Hope to see you around the city soon.
