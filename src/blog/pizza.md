@@ -13,6 +13,8 @@ The crusts were a bit chewy, but they had a wonderful yeasty aroma that I simply
 
 I especially appreciated the variety of crust thicknesses: some were thin and crispy, while others were thick and doughy, offering a diverse range of textures for my taste buds to explore.
 
+Bolé, my youngest, was thrilled to join me for the pizza crust adventure. "I love how the thicker crusts are doughy and comforting. Pizza crusts are my new favorite!" she declared.
+
 I'd rate this pizza crust find a scrumptious **9 out of 10**. It's a perfect late-night snack for any opossum looking to satisfy their carb cravings. 
 
 Keep your eyes peeled for more tasty discoveries, and stay safe out there, friends! 🐾

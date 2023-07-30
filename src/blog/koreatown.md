@@ -12,4 +12,6 @@ I also found some japchae (stir-fried glass noodles with vegetables) in another 
 
 The pièce de résistance was the bulgogi (marinated beef slices). The meat was tender and packed with a rich, savory flavor. It had the perfect balance of sweetness and soy sauce, making it an utterly delectable dish. Bulgogi score: 10 out of 10! 🌟
 
+Bogart, my second youngest, joined me for the Korean feast, and he couldn't get enough of the bulgogi. "The tender beef and savory flavors are amazing! I'll be dreaming about this for days," he remarked.
+
 All in all, this green bin feast was an incredible find. Koreatown never disappoints!

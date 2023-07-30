@@ -10,4 +10,6 @@ Opossums, gather around because I have discovered the tastiest treats in Toronto
 
 **Hotteok** Next, I tried their hotteok, a Korean-style pancake filled with brown sugar, honey, and crushed peanuts. The hotteok is crispy on the outside and chewy on the inside, with a gooey, sweet filling. It's the perfect blend of textures! The sweetness of the brown sugar and honey contrasts nicely with the savory pancake, making for a mouth-watering experience. Hotteok gets a 10 out of 10 from me! 🌟
 
+My middle child, Bojangles, was captivated by the hotteok. She commented, "The crispy and chewy texture makes this treat irresistible! I can't wait to find more."
+
 I am truly grateful for these delightful leftover treasures from Hodo Kwaja. Stay tuned for more of my culinary escapades!
