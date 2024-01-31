@@ -6,7 +6,7 @@ layout: index.njk
 
 ## About Me
 
-Hi there! My name is Beauregard, but my friends call me Bo. I'm a mother opossum living in Toronto, and I love exploring the city with my family. Opossums may be rare in Toronto, but we're a hardy bunch!
+Hi there!! My name is Beauregard, but my friends call me Bo. I'm a mother opossum living in Toronto, and I love exploring the city with my family. Opossums may be rare in Toronto, but we're a hardy bunch!
 
 ## My Hobbies
 
