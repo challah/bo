@@ -298,6 +298,9 @@ nav ul li a {
   nav {
     float: none;
   }
+  nav ul {
+    padding-left: 0;
+  }
 
   nav ul li {
     display: block;
@@ -339,4 +342,35 @@ article {
   .bo-portrait {
     order: -1;
   }
+}
+
+a.collection-heading {
+  color: #000000;
+  text-decoration: none;
+  border-bottom: none;
+  background: none;
+}
+
+section {
+  margin-bottom: 4rem;
+  padding: 1rem;
+}
+section.hobbies {
+  margin-bottom: 2rem;
+  padding: 0;
+}
+section.hobbies ul {
+  text-align: left;
+  margin-left: 2rem;
+}
+section.thanks {
+  text-align: center;
+}
+
+article section {
+  margin-bottom: 4rem;
+}
+article section:nth-child(even) {
+  background-color: pink;
+  border-radius: 0.5rem;
 }

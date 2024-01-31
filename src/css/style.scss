@@ -311,6 +311,10 @@ nav ul li a {
 @media screen and (max-width: 768px) {
   nav {
     float: none;
+    // remove left padding on ul
+    ul {
+      padding-left: 0;
+    }
   }
 
   nav ul li {
@@ -352,4 +356,43 @@ article {
   @media (max-width: 600px) { // adjust this breakpoint as necessary
     order: -1; // move the image above the p element
   }
+}
+
+a.collection-heading {
+  color: #000000;
+  text-decoration: none;
+  border-bottom: none;
+  background: none;
+}
+
+section {
+  // add margin at the bottom
+  margin-bottom: 4rem;
+  padding: 1rem;
+  &.hobbies {
+// less margin
+    margin-bottom: 2rem;
+    padding: 0;
+
+    // align the bullets
+    ul {
+      text-align: left;
+      margin-left: 2rem;
+    }
+  }
+
+  &.thanks {
+    text-align: center;
+  }
+}
+
+article {
+section {
+  margin-bottom: 4rem;
+
+  &:nth-child(even) {
+    background-color: pink;
+    border-radius: 0.5rem;
+  }
+}
 }
