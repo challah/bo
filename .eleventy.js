@@ -1,3 +1,5 @@
+const moment = require('moment');
+
 module.exports = function (eleventyConfig) {
   
   eleventyConfig.addPassthroughCopy("src/css");
@@ -15,10 +17,18 @@ module.exports = function (eleventyConfig) {
     return array.slice().reverse();
   });
 
+  // Add the date filter
+  eleventyConfig.addNunjucksFilter("date", function(date, format) {
+    return moment(date).format(format);
+  });
+
   return {
     pathPrefix: "bo",
     url: "https://jordanne.ca",
     passthroughFileCopy: true,
+    markdownTemplateEngine: "njk", // use Nunjucks for Markdown files
+    htmlTemplateEngine: "njk", // use Nunjucks for HTML files
+    templateFormats: ["md", "njk", "html"], // use Nunjucks for .md, .njk, and .html files
     dir: {
       input: "src",
       output: "public",
