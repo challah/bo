@@ -8,6 +8,12 @@ module.exports = function (eleventyConfig) {
     return collectionApi.getFilteredByGlob("src/blog/*.md");
   });
 
+  eleventyConfig.addNunjucksFilter("limit", function(array, limit) {
+    return array.slice(0, limit);
+  });
+  eleventyConfig.addNunjucksFilter("reverse", function(array) {
+    return array.slice().reverse();
+  });
 
   return {
     pathPrefix: "bo",
