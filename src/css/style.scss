@@ -1,6 +1,10 @@
 /* IMPORTS */
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans&display=swap");
 /* VARIABLES */
+$primary: #ff1111;
+
+
+
 /* RESETS */
 * {
   -webkit-box-sizing: border-box;
@@ -43,7 +47,7 @@ h1 {
   margin-top: 1rem;
   margin-bottom: 1.75rem;
   font-size: 2rem;
-  color: #ff1111;
+  color: $primary;
 }
 
 h2 {
@@ -87,14 +91,14 @@ ul.no-bullet {
 a:link,
 a:visited {
   text-decoration: none;
-  border-bottom: 6px solid #ff1111;
+  border-bottom: 6px solid $primary;
   color: var(--foreground);
   -webkit-transition: background 0.2s linear;
   transition: background 0.2s linear;
 }
 
 a:hover {
-  background: #ff1111;
+  background: $primary;
 }
 
 /* Title style adjustments */
@@ -105,6 +109,7 @@ a:hover {
   font-weight: bold;
   line-height: 1.5;
 }
+
 
 .home {
   -webkit-box-pack: left;
@@ -157,7 +162,7 @@ a:visited {
 }
 
 .footer a:hover {
-  background: #ff1111;
+  background: $primary;
 }
 
 .footer .links {
@@ -179,22 +184,27 @@ a:visited {
   justify-content: space-between;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+  // margin: 0 -0.5rem;
 }
 
 .kiddo {
   background-color: #ffd6b3;
+  // padding: 0.5rem 1rem;
   border-radius: 0.5rem;
   margin: 0.5rem 0;
   /* they need to be the same size */
+  // width: 45%;
   display: flex;
   min-width: 300px;
   max-width: 600px;
-}
-@media (max-width: 600px) {
-  .kiddo {
-    width: 100%;
-    min-width: 0;
-    flex-direction: column;
+  // > * {
+  //   border: solid 1px red;
+  // }
+
+  @media (max-width: 600px) { // for smaller screens
+    width: 100%; // take up the whole width
+    min-width: 0; // reset the min-width
+    flex-direction: column; // stack the items vertically
   }
 }
 
@@ -203,23 +213,25 @@ a:visited {
   float: left;
   display: block;
   width: 50%;
+  // padding-right: 1rem;
+  li {
+    color: red;
+    margin-top: 0rem;
+    // remove spaces between list items
+    margin-bottom: 0.1rem;
+    list-style-type: none;
+    font-size: 0.8rem;
+  }
+  ul {
+    margin-bottom: 1rem;
+
+    .kid-label {
+      font-weight: bold;
 }
-.kid-info li {
-  color: red;
-  margin-top: 0rem;
-  margin-bottom: 0.1rem;
-  list-style-type: none;
-  font-size: 0.8rem;
-}
-.kid-info ul {
-  margin-bottom: 1rem;
-}
-.kid-info ul .kid-label {
-  font-weight: bold;
-}
-@media (max-width: 600px) {
-  .kid-info {
-    width: 100%;
+  }
+  @media (max-width: 600px) { // for smaller screens
+    width: 100%; // take up the whole width
+  
   }
 }
 
@@ -228,12 +240,13 @@ a:visited {
   width: 250px;
   border-radius: 0 0.5rem 0.5rem 0;
   margin: 0 0 auto auto;
-}
-@media (max-width: 600px) {
-  .kid-img {
+  @media (max-width: 600px) { // for smaller screens
+    // width: 100%; // take up the whole width
+    // align-self: flex-start;
     margin: auto;
     padding-bottom: 1rem;
-    border-radius: 0.5rem;
+    // border radius at the bottom instead
+    border-radius:  0.5rem;
   }
 }
 
@@ -245,7 +258,7 @@ a:visited {
 }
 
 body {
-  font-family: "DM Sans", Arial, sans-serif;
+  font-family: 'DM Sans', Arial, sans-serif;
   line-height: 1.6;
   background-color: #f4f4f4;
 }
@@ -293,6 +306,7 @@ nav ul li a {
 /* nav ul li a:hover {
   text-decoration: underline;
 } */
+
 /* Responsive navigation */
 @media screen and (max-width: 768px) {
   nav {
@@ -305,24 +319,24 @@ nav ul li a {
     text-align: center;
   }
 }
+
 article {
   padding: 1rem;
-  margin: 2rem auto;
-  max-width: 90%;
-}
-@media (min-width: 768px) {
-  article {
+  margin: 2rem auto; // 2rem top and bottom margin, auto left and right margin for centering
+  max-width: 90%; // take up to 90% of the width by default (for smaller screens)
+
+  @media (min-width: 768px) { // for larger screens (e.g., desktops)
     width: 750px;
-    max-width: 70%;
+    max-width: 70%; // take up to 70% of the width
   }
 }
 
 .introduction {
+  // light pink background
   display: flex;
-}
-@media (max-width: 800px) {
-  .introduction {
-    flex-direction: column;
+
+  @media (max-width: 800px) { // for smaller screens
+    flex-direction: column; // stack the items vertically
   }
 }
 
@@ -331,12 +345,11 @@ article {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 100%;
-  height: auto;
-  max-width: 200px;
-}
-@media (max-width: 600px) {
-  .bo-portrait {
-    order: -1;
+  width: 100%; // make the width responsive
+  height: auto; // let the browser set the height based on the aspect ratio
+  max-width: 200px; // limit the maximum width
+
+  @media (max-width: 600px) { // adjust this breakpoint as necessary
+    order: -1; // move the image above the p element
   }
 }
