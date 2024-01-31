@@ -8,7 +8,6 @@ layout: index.njk
 
 Hi there!! My name is Beauregard, but my friends call me Bo. I'm a mother opossum living in Toronto, and I love exploring the city with my family. Opossums may be rare in Toronto, but we're a hardy bunch!
 
-<!-- ![Bo the opossum](images/bo_portrait.jpg) -->
 <img src="images/bo_portrait.jpg" alt="Bo the opossum" class="bo-portrait"/>
 </section>
 
@@ -20,17 +19,21 @@ Hi there!! My name is Beauregard, but my friends call me Bo. I'm a mother opossu
 - Playing dead to avoid predators (just kidding!)
 </section>
 
-## Blog
+<section class="blog-intro">
+<h2>Blog</h2>
 
 Welcome, fellow food adventurers, to my little corner of the world where I, Bo the opossum, share my passion for dumpster dining! As a proud, resourceful opossum living in the bustling city of Toronto, I've discovered that discarded food can be an eco-friendly, delightful, and diverse source of nourishment. Join me on my urban foraging adventures as I explore the hidden gems in trash bins, uncovering an endless buffet of flavors and textures. Here, I'll be sharing my culinary discoveries and tips on how to thrive in this human world. So, get ready for a wild ride through the world of refined scavenging and prepare to view trash in a whole new light!
 
+### Latest Posts
 {% for post in collections.blog | reverse | limit(3) %}
   {% if post.data.title != 'Blog Posts' -%}
     - [{{ post.data.title }}]({{ post.url | url}}) 
   {% endif -%}
 {% endfor %}
+</section>
 
-## Meet the Kids
+<section class="kids-intro">
+<h2>Meet the Kids</h2>
 I love my little ones to bits, even when they keep me up all night with their antics. We like to spend our time exploring the city and trying out new foods. I'm so proud of each and every one of them!
 
 <div class="kids">
@@ -55,5 +58,8 @@ I love my little ones to bits, even when they keep me up all night with their an
 {% endfor %}
 
 I'm so proud of my little ones and can't wait to see what they accomplish in life.
+</section>
 
+<section class="thanks">
 Thanks for stopping by! Hope to see you around the city soon.
+</section>
