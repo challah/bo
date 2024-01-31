@@ -5,7 +5,8 @@
     "personality": "natural leader",
     "favourite food": "berries",
     "hobby": "climbing",
-    "aspiration": "wildlife biologist"
+    "aspiration": "wildlife biologist",
+    "description": "The eldest of my brood, Bingo is a natural leader with a love for berries and a talent for climbing. He aspires to be a wildlife biologist when he grows up."
   },
   {
     "name": "Bongo",
@@ -13,7 +14,8 @@
     "personality": "mischievous",
     "favourite food": "insects",
     "hobby": "playing hide and seek",
-    "aspiration": "acrobat in the circus"
+    "aspiration": "acrobat in the circus",
+    "description": "Bongo is the middle child, and often the most mischievous. He loves snacking on insects and playing hide and seek with his siblings. His life aspiration is to be an acrobat in the circus."
   },
   {
     "name": "Bojangles",
@@ -21,7 +23,8 @@
     "personality": "curious",
     "favourite food": "sweet potatoes",
     "hobby": "exploring new places",
-    "aspiration": "travel writer"
+    "aspiration": "travel writer",
+    "description": "Bojangles is the most curious. She enjoys exploring new places and trying new foods, and has a special fondness for sweet potatoes. She dreams of being a travel writer when she grows up."
   },
   {
     "name": "Bogart",
@@ -29,7 +32,8 @@
     "personality": "gentle",
     "favourite food": "mushrooms",
     "hobby": "cuddling with siblings",
-    "aspiration": "poet"
+    "aspiration": "poet",
+    "description": "Bogart is the shy one of the group, but has a big heart. He loves nothing more than cuddling with his siblings and snacking on mushrooms. He aspires to be a poet when he grows up."
   },
   {
     "name": "Bolé",
@@ -37,6 +41,7 @@
     "personality": "energetic",
     "favourite food": "bananas",
     "hobby": "wrestling with siblings",
-    "aspiration": "professional wrestler"
+    "aspiration": "professional wrestler",
+    "description": "The youngest of the litter, Bolé is full of energy and loves to play. Her favourite food is bananas, and her favourite activity is wrestling with her siblings. She aspires to be a professional wrestler when she grows up."
   }
 ]
