@@ -7,9 +7,9 @@ tags: [food review, fruit salad, Toronto, sweet, healthy]
 
 Hello, opossum buddies! 🍓 Today, I bring you a review of a delightful and nutritious find: **Fruit Salad**.
 
-While scurrying around the streets of Toronto, I discovered a small container of fruit salad that had been accidentally left on a bench. The colorful medley of fruits instantly caught my eye, and I knew I had to give it a try.
+While scurrying around the streets of Toronto, I discovered a small container of fruit salad that had been accidentally left on a bench. The colourful medley of fruits instantly caught my eye, and I knew I had to give it a try.
 
-The fruit salad contained a mix of strawberries, blueberries, pineapple, and grapes. Each fruit was juicy and flavorful, providing a wonderful combination of sweet and tangy tastes. The pineapple, in particular, was a standout favorite, with its bright and tropical flavor.
+The fruit salad contained a mix of strawberries, blueberries, pineapple, and grapes. Each fruit was juicy and flavourful, providing a wonderful combination of sweet and tangy tastes. The pineapple, in particular, was a standout favourite, with its bright and tropical flavor.
 
 As a bonus, this fruit salad was also an excellent source of vitamins and nutrients, making it a healthy choice for opossums looking to balance out their diet.
 

@@ -3,7 +3,7 @@ layout: page.njk
 title: Blog Posts
 pagination:
   data: collections.blog
-  size: 5
+  size: 3
   reverse: true
   alias: posts
 ---
@@ -19,9 +19,11 @@ pagination:
   {% endif %}
 {% endfor %}
 
-{% if pagination.pageNumber > 0 %}
-  <a href="/bo/blog/{{ pagination.pageNumber }}">Previous</a>
-{% endif %}
-{% if pagination.pageNumber + 1 < pagination.pages.length %}
-  <a href="/bo/blog/{{ pagination.pageNumber + 2 }}">Next</a>
-{% endif %}
+<div class="pagination">
+  {% if pagination.previous %}
+    <a href="{{ pagination.href.previous | url }}" class="pagination__prev">&larr; Prev Page</a>
+  {% endif %}
+  {% if pagination.next %}
+    <a href="{{ pagination.href.next | url }}" class="pagination__next">Next Page &rarr;</a>
+  {% endif %}
+</div>

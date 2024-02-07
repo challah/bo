@@ -57,7 +57,7 @@ I love my little ones to bits, even when they keep me up all night with their an
 </div>
 {% endfor %}
 
-I'm so proud of my little ones and can't wait to see what they accomplish in life.
+I'm so proud of my little ones. They're growing up so fast! I want to make sure they have the best life possible, and that means teaching them how to thrive in the city. I'm so excited to share our adventures with you all.
 </section>
 
 <section class="thanks">
